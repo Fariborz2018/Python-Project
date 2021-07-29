@@ -11,7 +11,7 @@ def start(update, context):
     context.bot.send_message(update.message.chat_id, 'a' * 4097)
     print("SALAM")
 
-
+#Bad Request
 def Bad_Request(update, context, error):
     print("SALAM")
     try:
