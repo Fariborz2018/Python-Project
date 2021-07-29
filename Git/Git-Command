@@ -1,0 +1,36 @@
+Download Git
+.............
+https://git-scm.com/
+
+Run Git Bash
+..................
+Right Click in Working Project and Click on Git Bash
+
+Help Parameter
+...................
+git
+
+Verify Git Version
+...................
+git --version
+
+Create Repository
+...................
+git init
+
+Show Working Tree
+.....................
+git status
+
+Add Files to Stage
+......................
+git add .
+
+Add File from Stage to Repository
+..................................
+git commit -m "Message for Commit"
+
+Add File from working Tree to Direct Repository
+...............................................
+git commit -a -m "Message for Commit"
+
