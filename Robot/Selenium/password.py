@@ -1,2 +1,2 @@
-username = 'fariborzfallahzade'
-password = 'Master@123Aa'
+username = 'your username'
+password = 'your password'

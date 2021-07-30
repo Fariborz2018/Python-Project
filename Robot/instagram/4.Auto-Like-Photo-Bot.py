@@ -25,11 +25,11 @@ class BOT:
 	def login(self):
 		un_id = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'div.-MzZI:nth-child(1) > div:nth-child(1) > label:nth-child(1) > input:nth-child(2)')))
 		un_id.click()
-		un_id.send_keys("fariborzfallahzade")
+		un_id.send_keys("your username")
 
 		pw_id = self.driver.find_element_by_css_selector('div.-MzZI:nth-child(2) > div:nth-child(1) > label:nth-child(1) > input:nth-child(2)')
 		pw_id.click()
-		pw_id.send_keys("Master@123Aa")
+		pw_id.send_keys("your password")
 
 		btn = self.driver.find_element_by_css_selector('.bkEs3')
 		btn.click()
